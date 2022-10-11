@@ -29,12 +29,5 @@ ActiveRecord::Schema.define(version: 2020_05_22_123444) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
-  create_table "itineraries2", force: :cascade do |t|
-    t.integer "subtotal"
-    t.integer "discount"
-    t.integer "total"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
 
 end
