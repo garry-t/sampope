@@ -1,4 +1,3 @@
-name: semgrep_scan
 on:
   pull_request: {}
   push:
@@ -21,3 +20,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - run: semgrep ci
+
